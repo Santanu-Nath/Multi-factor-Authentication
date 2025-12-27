@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.node-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007acc;  /* Node.js Blue color */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  color: #d9f4d7;  /* Light green for a soft contrast */
+}
+
+/* Highlighted Text */
+.highlight {
+  color: #007acc;  /* Node.js blue */
+}
+
+/* Introduction Section */
+.intro h2 {
+  color: #007acc;  /* Node.js Blue */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Core Concepts Section */
+.core-concepts {
+  margin-bottom: 60px;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #005f8d;  /* Darker blue for better readability */
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.2em;
+}
+
+/* Feature Section */
+.features {
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #e1f7e1;  /* Light green background */
+  border-left: 4px solid #007acc;  /* Node.js Blue accent */
+  padding: 20px;
+}
+
+/* Performance Section */
+.performance {
+  background-color: #e0f7fa;  /* Light blue background */
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.performance h2 {
+  color: #007acc; /* Node.js Blue */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #007acc;  /* Node.js Blue */
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cta .btn {
+  padding: 10px 20px;
+  background-color: #282c34;  /* Dark gray */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: #61dafb;  /* React blue for contrast */
+  color: #282c34;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

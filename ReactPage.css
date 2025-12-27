@@ -1,0 +1,190 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.react-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #61dafb; /* React Blue */
+  color: #282c34;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  color: #e0f7fa;
+}
+
+/* Highlighted Text */
+.highlight {
+  color: #61dafb;
+}
+
+/* Intro Section */
+.intro h2 {
+  color: #61dafb;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+}
+
+/* Core Concepts Section */
+.core-concepts {
+  margin-bottom: 60px;
+}
+
+.core-concepts h2 {
+  text-align: center;
+  color: #61dafb;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #20232a;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Features Section */
+.features {
+  margin-bottom: 40px;
+}
+
+.features h2 {
+  text-align: center;
+  color: #61dafb;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #e3faff; /* Light blue tint */
+  border-left: 4px solid #61dafb;
+  padding: 20px;
+}
+
+/* Advanced Topics Section */
+.advanced-topics h2 {
+  text-align: center;
+  color: #61dafb;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Performance Section */
+.performance {
+  background-color: #e0f7fa;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.performance h2 {
+  color: #61dafb;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.performance ul {
+  font-size: 1.2em;
+  padding-left: 40px;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #61dafb;
+  color: #282c34;
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cta .btn {
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: white;
+  color: #282c34;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
